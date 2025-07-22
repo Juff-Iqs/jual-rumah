@@ -301,6 +301,21 @@ p {
 }
 
 /*********************************/
+/*   Penyesuaian CSS mobile Suntree    */
+/*===============================*/
+
+@media (max-width: 576px) {
+  .title-heading h4 {
+    font-size: 1.25rem; /* atau 20px */
+  }
+  .para-desc {
+    font-size: 0.95rem;
+  }
+}
+
+
+
+/*********************************/
 /*         Tobii Lightbox          */
 /*===============================*/
 .tobii__btn svg {
@@ -323,6 +338,9 @@ p {
 #grid {
   padding: 0 !important;
 }
+
+
+
 
 /*********************************/
 /*         Bootstrap-custom      */
@@ -2311,14 +2329,33 @@ button:not(:disabled) {
 /*********************************/
 /*         Social icons          */
 /*===============================*/
+
+.social-icon i {
+    font-size: 28px; /* Perbesar ukuran icon */
+    color: #333;      /* Warna default */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-link:hover i {
+    transform: scale(1.2); /* Efek hover membesar */
+    color: #007bff;        /* Ganti warna saat hover (biru, bisa kamu sesuaikan) */
+}
+
+/* Pastikan icon feather ikut dibesarkan */
+.feather {
+    width: 28px;
+    height: 28px;
+}
+
+
 .social-icon li a {
   color: #1e293b;
   border: 1px solid #1e293b;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 28px;
-  width: 28px;
+  height: 40px;
+  width: 40px;
   transition: all 0.4s ease;
   overflow: hidden;
   position: relative;
@@ -2326,9 +2363,6 @@ button:not(:disabled) {
   
 }
 
-.social-icon li a .fea-social {
-  stroke-width: 2;
-}
 
 .social-icon li a:hover {
   background-color: #b2a47a;
@@ -2344,8 +2378,7 @@ button:not(:disabled) {
   border: none;
   height: auto;
   width: auto;
-  padding-left: 8px;
-  
+  padding-left: 15px;
 }
 
 .social-icon.tagline-social li a i {
@@ -2353,7 +2386,7 @@ button:not(:disabled) {
 }
 
 .social-icon.tagline-social li a i:hover {
-  color: #38bdf8 !important;
+  color: #ffffff !important;
 }
 
 .social-icon.tagline-social li a:hover {
@@ -2376,6 +2409,14 @@ button:not(:disabled) {
 .social-icon.foot-social-icon li a {
   color: #adb5bd;
   border-color: #283353;
+}
+
+.foot-social-icon i.fab {
+    color: #ffffff; /* Atau sesuaikan sesuai tema footer kamu */
+}
+
+.foot-social-icon i.fab a:hover {
+    color: #ffffff; /* Atau sesuaikan sesuai tema footer kamu */
 }
 
 /*********************************/
@@ -2512,6 +2553,11 @@ button:not(:disabled) {
 
 #topnav #navigation {
   font-family: "League Spartan", sans-serif;
+}
+
+#topnav .logo img {
+  width: 200px;  /* Ganti sesuai kebutuhan */
+  height: auto;  /* Otomatis menjaga rasio */
 }
 
 #topnav #navigation.toggle-menu {
@@ -3477,6 +3523,13 @@ button:not(:disabled) {
   transition: all 0.5s ease;
 }
 
+.property-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .property .property-image img,
 .property .property-image .property-icon {
   transition: all 0.5s ease;
@@ -3963,7 +4016,7 @@ button:not(:disabled) {
 /*===============================*/
 footer {
   position: relative;
-  color: #adb5bd;
+  color: #ffffff;
 }
 
 footer .footer-py-60 {
@@ -3972,6 +4025,11 @@ footer .footer-py-60 {
 
 footer .footer-py-30 {
   padding: 30px 0;
+}
+
+.produk-123 {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
 }
 
 footer .footer-head {
