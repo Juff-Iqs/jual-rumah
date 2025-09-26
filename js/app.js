@@ -1,17 +1,4 @@
 
-/*********************************/
-/*         INDEX                 */
-/*================================
- *     01.  Loader               *
- *     02.  Toggle Menus         *
- *     03.  Active Menu          *
- *     04.  Clickable Menu       *
- *     05.  Back to top          *
- *     06.  Feather icon         *
- *     06.  DD Menu              *
- *     06.  Active Sidebar Menu  *
- *     07.  Contact us           *
- ================================*/
 
 
 window.addEventListener('load',   fn , false )
