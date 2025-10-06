@@ -2336,6 +2336,17 @@ button:not(:disabled) {
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
+.social-icon2 i {
+    font-size: 28px; /* Perbesar ukuran icon */
+    color: #333;      /* Warna default */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-link:hover i {
+    transform: scale(1.2); /* Efek hover membesar */
+    color: #007bff;        /* Ganti warna saat hover (biru, bisa kamu sesuaikan) */
+}
+
 .social-link:hover i {
     transform: scale(1.2); /* Efek hover membesar */
     color: #007bff;        /* Ganti warna saat hover (biru, bisa kamu sesuaikan) */
@@ -2359,8 +2370,19 @@ button:not(:disabled) {
   transition: all 0.4s ease;
   overflow: hidden;
   position: relative;
-  
-  
+}
+
+.social-icon2 li a {
+  color: #1e293b;
+  border: 1px solid #1e293b;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  transition: all 0.4s ease;
+  overflow: hidden;
+  position: relative;
 }
 
 
@@ -2370,11 +2392,26 @@ button:not(:disabled) {
   color: #ffffff !important;
 }
 
+.social-icon2 li a:hover {
+  background-color: #306690 ; /* Hover icon ungu */  
+  border-color: #b2a47a !important;
+  color: #ffffff !important;
+}
+
 .social-icon li a:hover .fea-social {
   fill: #38bdf8;
 }
 
+
+
 .social-icon.tagline-social li a {
+  border: none;
+  height: auto;
+  width: auto;
+  padding-left: 15px;
+}
+
+.social-icon2.tagline-social li a {
   border: none;
   height: auto;
   width: auto;
@@ -2385,11 +2422,23 @@ button:not(:disabled) {
   color: #94a3b8;
 }
 
+.social-icon2.tagline-social li a i {
+  color: #94a3b8;
+}
+
 .social-icon.tagline-social li a i:hover {
   color: #ffffff !important;
 }
 
+.social-icon2.tagline-social li a i:hover {
+  color: #ffffff !important;
+}
+
 .social-icon.tagline-social li a:hover {
+  background: transparent !important;
+}
+
+.social-icon2.tagline-social li a:hover {
   background: transparent !important;
 }
 
@@ -2412,6 +2461,18 @@ button:not(:disabled) {
 }
 
 .foot-social-icon i.fab {
+    color: #ffffff; /* Atau sesuaikan sesuai tema footer kamu */
+}
+
+.foot-social-icon2 i.fab {
+    color: #306690; /* Ungu Color Atau sesuaikan sesuai tema footer kamu */
+}
+
+.icon-wachannel {
+    color: #306690; /* Ungu Color Atau sesuaikan sesuai tema footer kamu */
+}
+
+.foot-social-icon2 i.fab:hover {
     color: #ffffff; /* Atau sesuaikan sesuai tema footer kamu */
 }
 
