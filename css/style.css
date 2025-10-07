@@ -2455,6 +2455,12 @@ button:not(:disabled) {
   border-color: #adb5bd;
 }
 
+.social-icon2  {
+  color: #adb5bd;
+  border-color: #adb5bd;
+  gap: 2rem;
+}
+
 .social-icon.foot-social-icon li a {
   color: #adb5bd;
   border-color: #283353;
