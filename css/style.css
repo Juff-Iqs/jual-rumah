@@ -342,6 +342,7 @@ p {
 /*********************************/
 /*         Bootstrap-custom      */
 /*===============================*/
+
 @media (min-width: 1400px) {
   .container {
     padding: 0 !important;
@@ -699,6 +700,10 @@ video:focus {
     border-top-right-radius: 0 !important;
   }
 }
+
+
+
+
 
 /*********************************/
 /*         Border                */
